@@ -1,0 +1,44 @@
+{
+  "weather": [
+    {
+      "timestamp": "2023-05-27T00:00:00+00:00",
+      "source_id": 2943,
+      "precipitation": 0.0,
+      "pressure_msl": 1025.6,
+      "sunshine": 0.0,
+      "temperature": 5.0,
+      "wind_direction": 215,
+      "wind_speed": 1.8,
+      "cloud_cover": 25,
+      "dew_point": 2.2,
+      "relative_humidity": null,
+      "visibility": 56800,
+      "wind_gust_direction": null,
+      "wind_gust_speed": 9.3,
+      "condition": "dry",
+      "precipitation_probability": 0,
+      "precipitation_probability_6h": 2,
+      "solar": 0.0,
+      "fallback_source_ids": {
+        "sunshine": 4703,
+        "solar": 4703
+      },
+      "icon": "partly-cloudy-night"
+    }
+  ],
+  "sources": [
+    {
+      "id": 5901,
+      "dwd_station_id": null,
+      "observation_type": "current",
+      "lat": 59.35,
+      "lon": 17.95,
+      "height": 15.0,
+      "station_name": "STOCKHOLM",
+      "wmo_station_id": "02464",
+      "first_record": "2023-05-24T13:00:00+00:00",
+      "last_record": "2023-05-26T12:00:00+00:00",
+      "distance": 37332.0
+    }
+  ]
+}
