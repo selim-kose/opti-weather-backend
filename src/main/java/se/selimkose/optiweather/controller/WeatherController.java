@@ -18,10 +18,9 @@ public class WeatherController {
 
     WeatherService weatherService;
 
-    @GetMapping("/get")
+    @GetMapping("/getforecast")
     public ResponseEntity<Forecast> getForecast(){
         return new ResponseEntity<>(weatherService.getForecasts(), HttpStatus.OK);
     }
-
 
 }
